@@ -1,0 +1,69 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#SimplCheck"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Signup app",
+        "description": "",
+        "id": "simplcheck;signup-app",
+        "after": [
+          {
+            "result": {
+              "duration": 296500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.Screnshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48214656359,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter app url",
+            "match": {
+              "location": "Login.Before_Method()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46099331822,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Signup the simplcheck app",
+            "match": {
+              "location": "Login.signup_Page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Signup"
+          }
+        ]
+      }
+    ],
+    "name": "SimplCheck",
+    "description": "",
+    "id": "simplcheck",
+    "keyword": "Feature",
+    "uri": "C:/Users/prakashd/Prakash_Automation/simplCheck/src/test/java/simplCheck.feature"
+  }
+]
